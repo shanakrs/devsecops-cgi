@@ -17,5 +17,5 @@ jobs:
     steps:
       - name: Run Python File
         with:
-          python-version: '3.x'
+          python-version: '3.8'
       - run: python hello.py
