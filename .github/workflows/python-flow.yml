@@ -21,4 +21,4 @@ jobs:
       - name: list
         run: ls
       - name: Run Python File
-        run: python hello.py
+        run: /home/runner/work/devsecops-cgi/python hello.py
