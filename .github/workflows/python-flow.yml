@@ -19,6 +19,6 @@ jobs:
       - name: path
         run: pwd
       - name: list
-        run: ls
+        run: ls /home/runner/work/devsecops-cgi
       - name: Run Python File
         run: python /home/runner/work/devsecops-cgi/hello.py
