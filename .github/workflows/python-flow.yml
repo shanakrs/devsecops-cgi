@@ -19,6 +19,6 @@ jobs:
       - name: path
         run: pwd
       - name: list
-        run: ls /home/runner/work/devsecops-cgi/devsecops-cgi
+        run: ls $GITHUB_WORKSPACE
       - name: Run Python File
         run: python /home/runner/work/devsecops-cgi/hello.py
