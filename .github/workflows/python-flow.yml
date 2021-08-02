@@ -22,4 +22,4 @@ jobs:
       - name: list
         run: ls ${GITHUB_WORKSPACE}
       - name: Run Python File
-        run: python /home/runner/work/devsecops-cgi/hello.py
+        run: python /home/runner/work/devsecops-cgi/devsecops-cgi/hello.py
