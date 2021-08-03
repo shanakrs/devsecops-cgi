@@ -30,4 +30,4 @@ jobs:
       - name: list
         run: ls /home/runner/work/devsecops-cgi/devsecops-cgi/  
       - name: Run Java File
-        run: java /home/runner/work/devsecops-cgi/devsecops-cgi/hello.HelloWorld
+        run: java /home/runner/work/devsecops-cgi/devsecops-cgi/HelloWorld
