@@ -11,7 +11,9 @@ on:
     paths:
       - "hello.java" # Only Hello.java file
       - "**.java" # Any Java File
-      - "!index.html" #Except this file, any other file changes, trigger the job
+#      - "!index.html" #Except this file, any other file changes, trigger the job
+    paths-ignore:
+      - "index.html"
 
 jobs:
   Execute:
