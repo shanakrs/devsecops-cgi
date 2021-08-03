@@ -1,10 +1,17 @@
 name: Python Workflow Demo
 
-on:
-  schedule:
-    - cron: "0/10 * * * *"
+# on:
+#   schedule:
+#    - cron: "0/10 * * * *"
 
-# on: [push]
+on: 
+  push:
+    branches:
+      - main
+    paths:
+      - "hello.py" # Only Hello.java file
+#      - "**.py" # Any Java File
+#      - "!index.html" #Except this file, any other file changes, trigger the job
     
 jobs:
   ExecutePython:
