@@ -1,7 +1,11 @@
 name: Python Workflow Demo
 
-on: [push]
+on:
+  schedule:
+    - cron: "0/10 * * * *"
 
+# on: [push]
+    
 jobs:
   ExecutePython:
      runs-on: ubuntu-latest
