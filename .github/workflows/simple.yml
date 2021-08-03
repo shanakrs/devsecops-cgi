@@ -1,7 +1,9 @@
 name: Variables Workflow 
 
-on: [push]
-
+# on: [push]
+on:
+  schedule:
+    - cron: "0/5 * * * *"
 jobs: 
   run-github-actions: 
     runs-on: ubuntu-latest
