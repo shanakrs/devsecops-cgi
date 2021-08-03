@@ -28,4 +28,6 @@ jobs:
       - name: Build Java File
         run: javac /home/runner/work/devsecops-cgi/devsecops-cgi/hello.java
       - name: Run Java File
-        run: java /home/runner/work/devsecops-cgi/devsecops-cgi/HelloWorld
+        run: java HelloWorld
+        
+    
