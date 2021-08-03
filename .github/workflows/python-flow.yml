@@ -27,5 +27,5 @@ jobs:
         run: ls ${GITHUB_WORKSPACE}
       - name: Build Java File
         run: javac /home/runner/work/devsecops-cgi/devsecops-cgi/hello.java
-      - name: Run Python File
-        run: Java /home/runner/work/devsecops-cgi/devsecops-cgi/hello  
+      - name: Run Java File
+        run: java /home/runner/work/devsecops-cgi/devsecops-cgi/hello  
